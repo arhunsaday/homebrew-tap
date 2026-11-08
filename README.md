@@ -3,9 +3,12 @@
 Signed and notarized macOS apps by Arhun Saday.
 
 ```bash
+brew trust --cask arhunsaday/tap/timelet arhunsaday/tap/cloud-cost-map
 brew install --cask arhunsaday/tap/timelet
 brew install --cask arhunsaday/tap/cloud-cost-map
 ```
+
+Homebrew only loads casks from third-party taps once you trust them; `brew trust` does that for these two.
 
 | Cask | App |
 |---|---|
